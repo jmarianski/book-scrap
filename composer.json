@@ -1,0 +1,21 @@
+{
+    "name": "jmarianski/book-scrap",
+    "type": "library",
+    "description": "Eases the creation of beautiful and testable command line interfaces",
+    "keywords": ["cli", "command line", "terminal", "books", "scrapping"],
+    "homepage": "https://treetank.net",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jacek Mariański",
+            "email": "marianski.jacek@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"BookScrap\\": "src/"}
+    },
+    "require-dev": {
+        "jmarianski/jackin-framework": "dev-master"
+    },
+    "minimum-stability": "dev"
+}
